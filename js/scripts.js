@@ -1,8 +1,13 @@
-let array = [];
-function countUp(num) {
-  for (let i = 0; i <= num; i++) {
+const array = [];
+function beepBoop(value) {
+  for (let i = 0; i <= value; i++) {
     array.push(i);
   }
-  return array;
+  const roboArray = array.map(function(element) {
+    if (element.includes(1)) {
+      return element = "Beep!"
+    }
+  })
+  return roboArray;
 }
 
