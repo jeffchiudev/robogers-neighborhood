@@ -55,8 +55,6 @@ Expect(beepBoop(3)).toEqual("Won't you be my neighbor?");
 Test: "It returns accurate logic for digits with 2+ digits"
 Expect(beepBoop(32 || 13 || 23)).toEqual("Won't you be my neighbor?");
 
-Test: ""
-Expect(beepBoop()).toEqual();
 
 ## Known Bugs
 
