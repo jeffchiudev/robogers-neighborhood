@@ -5,3 +5,4 @@ function countUp(num) {
   }
   return array;
 }
+
