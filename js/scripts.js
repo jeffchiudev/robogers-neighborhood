@@ -1,13 +1,12 @@
-const array = [];
 function beepBoop(value) {
-  for (let i = 0; i <= value; i++) {
-    array.push(i);
+  let valueToArray = [];
+  for (let i=0; i<=value; i++) {
+    valueToArray.push(i);
   }
-  const roboArray = array.map(function(element) {
-    if (element.includes(1)) {
-      return element = "Beep!"
+  for (let j = 0; j <= valueToArray.length; j++) {
+    if (valueToArray[j] == 1) {
+      valueToArray[j] = "Beep!";
     }
-  })
-  return roboArray;
+  }
+  console.log(valueToArray);
 }
-
