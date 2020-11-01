@@ -1,16 +1,23 @@
 function beepBoop(value) {
-  let valueToArray = [];
-  for (let i=0; i<=value; i++) {
-    valueToArray.push(i);
+  const valueArray = [];
+  //let stringArray = [];
+  for (let i = 0; i <= value; i++) {
+    valueArray.push(i);
   }
-  /*for (let i = 0; i <= valueToArray.length; i++) {
-    if (valueToArray[i] == 1) {
-      valueToArray[i] = "Beep!";
-    } else if (valueToArray[i] == 2) {
-      valueToArray[i] = "Boop"
-    } else if (valueToArray[i] == 3) {
-      valueToArray[i] = "Won't you be my neighbor"
-    }
-  }*/
-  console.log(valueToArray);
+  const stringArray = valueArray.map(String);
+  console.log(valueArray);
+  console.log(stringArray);
+  const finalArray = [];
+  for (let i = 0; i < stringArray.length; i++) {
+    if (stringArray[i].includes("1")) {
+      finalArray.push("Beep!");
+    } else if (stringArray[i].includes("2")) {
+      finalArray.push("Boop!");
+    } else if (stringArray[i].includes("3")) {
+      finalArray.push("Won't you be my *bzzt* neighboor?");
+    } else {
+      (finalArray.push(stringArray[i]));
+    }  
+  }
+  console.log(finalArray);
 }
