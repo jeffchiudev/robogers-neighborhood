@@ -16,10 +16,12 @@ _[Click here](https://jeffchiudev.github.io/robogers-neighborhood/) to visit the
 
 ### Software Requirements
 _1. Internet browser of choice. Chrome & Firefox are suggested_
+
 _2. A code editor like VSCode or Atom to view or edit the codebase._
 
 ### Open by downloading:
 _1. Download [this](https://github.com/jeffchiudev/robogers-neighborhood) repository onto your computer by clicking the 'clone or download button'._
+
 _2. Double click index.html to open it in your web browser._
 
 ### Open via Bash/GitBash:
@@ -30,7 +32,7 @@ _2. Clone this repository onto your computer by using command:_
 
 _3. In the directory where you've cloned the repository, open in Visual Studio Code with `code .` or preferred text editor._
 
-## Spec
+## Test Specs
 
 Describe: beepBoop()
 
@@ -39,9 +41,6 @@ Expect(beepBoop(0)).toEqual(0);
 
 Test: "It returns an array of numbers if any number greater than 0 is input"
 Expect(beepBoop(5)).toEqual(1,2,3,4,5);
-
-Test: "It returns a message if a non-number is input"
-Expect(beepBoop(@$%azAz)).toEqual("Sorry; Mr. Robogers only likes playing with numbers");
 
 Test: "It returns a 'Beep!' if a value contains a 1"
 Expect(beepBoop(1)).toEqual("Beep!");
@@ -67,6 +66,7 @@ _If there are any issues, I can be contacted at jwchiu82@gmail.com_
 ## Technologies Used
 
 _* jQuery_
+
 _* Javascript_
 
 ### License

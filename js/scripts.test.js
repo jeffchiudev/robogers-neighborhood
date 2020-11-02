@@ -6,9 +6,6 @@ Describe: beepBoop()
 //Test: "It returns an array of numbers if any number greater than 0 is input"
 //Expect(beepBoop(5)).toEqual(1,2,3,4,5);
 
-Test: "It returns a message if a non-number is input"
-Expect(beepBoop(@$%azAz)).toEqual("Sorry; Mr. Robogers only likes playing with numbers");
-
 //Test: "It returns a 'Beep!' if a value contains a 1"
 //Expect(beepBoop(1)).toEqual("Beep!");
 
