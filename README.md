@@ -10,7 +10,7 @@ _Welcome to another wonderful day in Mr. Roboger's Neighborhood!  This site take
 
 ## Site link
 
-_[Click here](https://jeffchiudev.github.io/robogers-neighborhood/) to visit the portfolio._
+_[Click here](https://jeffchiudev.github.io/robogers-neighborhood/) to visit the site._
 
 ## Setup/Installation Requirements
 
